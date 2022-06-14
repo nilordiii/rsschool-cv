@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: lightblue;
+  }
+footer {
+
+  }
+.nav-list {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+.contact_sub {
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+  margin: 125px 80px 125px 60px;
+}
+.footer__rsschool {
+  justify-self: end;
+  height: 32px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 60px 20px 60px;
+  color: white;
+  background-color: #1e232c;
+}
+.footer__github {
+  position: relative;
+  padding-left: 40px;
+}
